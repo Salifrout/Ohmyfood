@@ -1,0 +1,67 @@
+.typography-title, header div, header + div, h1, .function {
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+body {
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+
+footer {
+  padding-left: 5%;
+  padding-bottom: 30px;
+  color: white;
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  font-family: "Shrikhand";
+}
+
+footer a:nth-child(2) {
+  color: red;
+  background-image: url(./couverts.png);
+  background-repeat: repeat;
+  background-size: 30%;
+  background-position: left;
+}
+
+header div {
+  font-family: "Shrikhand";
+  font-size: 4em;
+}
+
+header + div {
+  text-align: center;
+  font-weight: bold;
+}
+
+header + div {
+  background-color: #eaeaea;
+}
+
+.hole a {
+  width: 86.7%;
+  margin: 18px auto;
+  border-radius: 50px;
+}
+
+.hole a img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Ohmyfood.css.map */
